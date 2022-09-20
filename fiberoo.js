@@ -9,7 +9,7 @@ console.log(fib());
 
 function numsToString(arr){
   let newArr;
-  newArr = _.map(arr, function (num) { return ${arr[num]} ; });
+  newArr = _.map(arr, function (other, string) { return `${other} + ${string}`; });
   return newArr;
 }
 
